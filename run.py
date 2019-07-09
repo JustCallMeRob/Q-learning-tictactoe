@@ -57,7 +57,7 @@ if __name__ == '__main__':
     # initialize environment
     env = Environment()
     # number of times we go over all the episodes while resetting the exploration vs exploitation parameters
-    nr_of_epochs = 10
+    nr_of_epochs = 100
     # number of full games the agents will play
     nr_of_episodes = 10000
     # max number of steps that can be taken in one episode
